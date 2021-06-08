@@ -1,0 +1,3 @@
+[submodule "SafeEyes"]
+	path = SafeEyes
+	url = git@github.com:slgobinath/SafeEyes.git

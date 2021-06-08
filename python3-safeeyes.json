@@ -1,0 +1,54 @@
+{
+    "name": "python3-safeeyes",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"safeeyes\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/30/3a/6e27d7682179b2b5a67ff1e8b202c10585023e4c8d2b01db4b06b961aee4/python-xlib-0.30.tar.gz",
+            "sha256": "74131418faf9e7b83178c71d9d80297fbbd678abe99ae9258f5a20cd027acb5f"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/be/ed/5bbc91f03fa4c839c4c7360375da77f9659af5f7086b7a7bdda65771c8e0/python-dateutil-2.8.1.tar.gz",
+            "sha256": "73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/bc/3f/64e6e066d163fbcf13213f9eeda0fc83376243335ea46a66cefd70d62e8f/pycairo-1.20.1.tar.gz",
+            "sha256": "1ee72b035b21a475e1ed648e26541b04e5d7e753d75ca79de8c583b25785531b"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/51/2f/4d5d5afb7000b9151e33952b59163c9389bd867ac6fe85d62f85831fa061/PyGObject-3.40.1.tar.gz",
+            "sha256": "6fb599aa59ceb9dd05fafb0d72b3862943e7d5e85c8ef6c74856bc6d4321cbab"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/e1/b0/7276de53321c12981717490516b7e612364f2cb372ee8901bd4a66a000d7/psutil-5.8.0.tar.gz",
+            "sha256": "0c9ccb99ab76025f2f0bbecf341d4656e9c1351db8cc8a03ccd62e318ab4b5c6"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/48/d3/55796dc194cc36efe2715b695a35e94184fe6544d4c85b1f7fe5b502489e/croniter-1.0.13.tar.gz",
+            "sha256": "57f36df4f5a1c31bbf50bbffa3551612c19f6156ab1e88e2e42342ccbb9f9b9a"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/b0/61/eddc6eb2c682ea6fd97a7e1018a6294be80dba08fa28e7a3570148b4612d/pytz-2021.1.tar.gz",
+            "sha256": "83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/17/e6/ec9aa6ac3d00c383a5731cc97ed7c619d3996232c977bb8326bcbb6c687e/Babel-2.9.1.tar.gz",
+            "sha256": "bc0c176f9f6a994582230df350aa6e05ba2ebe4b3ac317eab29d9be5d2768da0"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/71/83/7864daf88b610032dbcfbcf2ca243c626cdf76bfd9b72d59576c6114553f/safeeyes-2.1.3.tar.gz",
+            "sha256": "3db101a4ae86e824937b7ddfb56e7e464f5b2dc96a351feaccadee080f42bcac"
+        }
+    ]
+}
