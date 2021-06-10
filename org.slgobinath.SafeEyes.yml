@@ -1,8 +1,16 @@
 app-id: org.slgobinath.SafeEyes
-runtime: org.freedesktop.Platform
-runtime-version: '20.08'
-sdk: org.freedesktop.Sdk
+runtime: org.gnome.Platform
+runtime-version: '40'
+sdk: org.gnome.Sdk
 command: safeeyes
 modules:
+    - shared-modules/libappindicator/libappindicator-gtk3-introspection-12.10.json
+    - shared-modules/libappindicator/libappindicator-gtk3-12.10.json
     - python3-setuptools-scm.json
+    - python3-dbus-python.json
     - python3-safeeyes.json
+finish-args:
+    - --socket=x11
+    - --socket=wayland
+    - --socket=system-bus
+    - --share=network
